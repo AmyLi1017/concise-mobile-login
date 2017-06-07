@@ -1,0 +1,95 @@
+@charset "utf-8";
+html,body,.indexWrapper{
+    height: 100%;
+    background: #F1F5F4;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+[class^="i-"]{
+    font-family: "icon"!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    moz-osx-font-smoothing: grayscale;
+}
+.indexWrapper{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+.main{
+    padding-top: 80px;
+}
+.main>p{
+    text-align: center;
+}
+.main>p.title{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ABB2BF;
+    line-height: 70px;
+}
+.main .i-zhuce,.i-zhaohuimima{
+    display: inline-block;
+    font-size: 50px;
+    color: #FE4318;
+    border-bottom: 1px solid #FE4318;
+    border-radius: 50%;
+}
+form>p{
+    text-align: center;
+    height: 50px;
+    padding: 0 15%;
+    box-sizing: border-box;
+}
+form>p>i{
+    font-size: 24px;
+    display: inline-block;
+    width: 10%;
+    padding-bottom: 5px;
+    color: #FF7348;
+    font-weight: 600;
+    border-bottom: 1px solid #EDEEF2;
+    box-sizing: border-box;
+}
+form>p>input{
+    display: inline-block;
+    width: 90%;
+    padding-bottom: 5px;
+    vertical-align: top;
+    height: 30px;
+    outline: none;
+    border-bottom: 1px solid #EDEEF2;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #666;
+}
+form>p.sms>input{
+    width: 50%;
+}
+form>p.sms>button{
+    display: inline-block;
+    width: 40%;
+    padding-bottom: 5px;
+    vertical-align: top;
+    height: 30px;
+    border-bottom: 1px solid #EDEEF2;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #FE927B;
+}
+form>p>input::-webkit-input-placeholder{
+    color: #999;
+}
+.btnBox{
+    margin-top: 15px;
+}
+.btnBox button,.btnBox a{
+    display: inline-block;
+    width: 70%;
+    line-height: 36px;
+    border-radius: 18px;
+    background: #FE5D3A;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+    box-shadow: 0 3px 10px #FE927B;
+}
