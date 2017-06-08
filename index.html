@@ -8,9 +8,9 @@
     <meta content="telephone=no" name="format-detection">
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./iconfont/iconfont.css">
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
 <div class="indexWrapper">
@@ -18,8 +18,10 @@
         <p><i class="i-shopping"></i></p>
         <p class="title">请登录</p>
         <section>
-            <p><i class="i-user"></i><input type="text"></p>
-            <p><i class="i-mima01"></i><input type="password"></p>
+            <form name="login" action="/login" method="post">
+                <p><i class="i-user"></i><input type="text"></p>
+                <p><i class="i-mima01"></i><input type="password"></p>
+            </form>
         </section>
         <p class="btnBox"><button>登录</button></p>
         <p class="goTo">
