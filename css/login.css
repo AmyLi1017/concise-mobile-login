@@ -40,6 +40,9 @@ form>p{
     padding: 0 23%;
     box-sizing: border-box;
 }
+form>p.btnBox{
+    padding: 0;
+}
 form>p>i{
     font-size: 22px;
     display: inline-block;
