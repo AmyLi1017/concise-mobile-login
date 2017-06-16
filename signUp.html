@@ -19,16 +19,17 @@
         <p class="title">注册</p>
         <section>
             <form name="signUp" action="/signUp" method="post">
-                <p><i class="i-userPhone"></i><input type="tel" placeholder="手机号"></p>
-                <p class="sms"><i class="i-verification"></i><input type="number"  placeholder="短信验证码"><button>| 获取验证码</button></p>
-                <p><i class="i-user"></i><input type="text" placeholder="用户名"></p>
-                <p><i class="i-mima01"></i><input type="password"  placeholder="密码"></p>
-                <p><i class="i-mima02"></i><input type="password"  placeholder="确认密码"></p>
+                <p><i class="i-userPhone"></i><input type="tel" name="tel" placeholder="手机号"><span name="tel_error"></span></p>
+                <p class="sms"><i class="i-verification"></i><input type="number" name="message" placeholder="短信验证码"><span class="messageError" name="message_error"></span><button>| 获取验证码</button></p>
+                <p><i class="i-user"></i><input type="text" name="userName" placeholder="用户名"><span name="userName_error"></span></p>
+                <p><i class="i-mima01"></i><input type="password" name="password" placeholder="密码"><span name="password_error"></span></p>
+                <p><i class="i-mima02"></i><input type="password" name="confirmPassword"  placeholder="确认密码"><span name="confirmPassword_error"></span></p>
                 <p class="btnBox"><button type="submit">立即注册</button></p>
             </form>
         </section>
-
     </div>
 </div>
+<script src="./jquery-3.1.0.min.js"></script>
+<script src="./main.js"></script>
 </body>
 </html>

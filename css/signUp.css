@@ -37,8 +37,9 @@ html,body,.indexWrapper{
 form>p{
     text-align: center;
     height: 50px;
-    padding: 0 15%;
+    margin: 0 15%;
     box-sizing: border-box;
+    position: relative;
 }
 form>p.btnBox{
     padding: 0;
@@ -81,6 +82,19 @@ form>p.sms>button{
 }
 form>p>input::-webkit-input-placeholder{
     color: #999;
+}
+form>p>span{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    padding-bottom: 5px;
+    height: 30px;
+    box-sizing: border-box;
+    line-height: 28px;
+    color: #FE927B;
+}
+.messageError{
+    margin-right: 30%;
 }
 .btnBox{
     margin-top: 15px;
